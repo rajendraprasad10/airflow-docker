@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# airflow-docker
-=======
 # Docker Compose – Check Container Status
 
 ## Command
@@ -115,4 +112,3 @@ docker compose logs --tail=100 airflow-scheduler
 
 **Important:** Avoid `docker compose down -v` unless you intentionally want to delete persistent Docker volumes, including the PostgreSQL metadata database.
 
->>>>>>> e2505a2 (added dockerfiles and readme files here)
